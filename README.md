@@ -10,14 +10,27 @@ For windows user, you need to add laravel path to Environment variable . Follow 
 ## How to run my project
 
 ### Go to the folder application using cd or go to directly and run cmd or similar as cmd
+   - run  ** composer install
 ### rename .env.example to .env
 ### Open .env file and change the database name. You can use like this
-DB_CONNECTION=mysql <br/>
-DB_HOST=127.0.0.1   <br/>
-DB_PORT=3306   <br/>
-DB_DATABASE=sec-cse   <br/>
-DB_USERNAME=root  <br/>
-DB_PASSWORD=""    <br/>
+- DB_CONNECTION=mysql <br/>
+- DB_HOST=127.0.0.1   <br/>
+- DB_PORT=3306   <br/>
+- DB_DATABASE=sec-cse   <br/>
+- DB_USERNAME=root  <br/>
+- DB_PASSWORD=""    <br/>
+
+### then run following command
+    php artisan route:cache
+    php artisan route:clear
+    php artisan config:cache
+    php artisan config:clear
+    php artisan optimize
+    php artisan route:cache
+    php artisan route:clear
+    php artisan config:cache
+    php artisan config:clear
+    php artisan optimize
 
 Now start MySQL and Apache from XAMPP Control Panel  <br/>
 Create a  database from localhost/phpmyadmin   </br>
