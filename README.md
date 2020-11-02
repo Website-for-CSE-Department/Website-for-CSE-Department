@@ -28,13 +28,13 @@ For windows user, you need to add laravel path to Environment variable . Follow 
     php artisan optimize
    
 
-Now start MySQL and Apache from XAMPP Control Panel  <br/>
-Create a  database from localhost/phpmyadmin   </br>
-Remember You need to use same name as DB_DATABASE.  <br/>
-That means I use DB_DATABASE=sec-cse  <br/>
-So, My Database name is sec-cse in the phpmyadmin  <br/>
-Then import databse. 
-My database file name our_database.sql
+- Now start MySQL and Apache from XAMPP Control Panel  <br/>
+- Create a  database from localhost/phpmyadmin   </br>
+- Remember You need to use same name as DB_DATABASE.  <br/>
+- That means I use DB_DATABASE=sec-cse  <br/>
+- So, My Database name is sec-cse in the phpmyadmin  <br/>
+- Then import databse. 
+- My database file name **our_database.sql**
 ### then run
      php artisan key:generate
 ### finally run
