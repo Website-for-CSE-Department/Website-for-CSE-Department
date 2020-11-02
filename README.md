@@ -36,12 +36,12 @@ So, My Database name is sec-cse in the phpmyadmin  <br/>
 Then import databse. 
 My database file name our_database.sql
 ### then run
-    - php artisan key:generate
+     php artisan key:generate
 ### finally run
-    - php artisan serve
+     php artisan serve
  
 ## You will get a hosting address like 
-    - http://127.0.0.1:8000/
+     http://127.0.0.1:8000/
 ### Go to this link  from browser and **bombed.**
 
 For Admin purposes, go to http://127.0.0.1:8000/admin   <br/>
