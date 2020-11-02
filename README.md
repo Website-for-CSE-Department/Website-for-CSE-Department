@@ -33,7 +33,7 @@ For windows user, you need to add laravel path to Environment variable . Follow 
 - Remember You need to use same name as DB_DATABASE.  <br/>
 - That means I use **DB_DATABASE=sec-cse**  <br/>
 - So, My Database name is **sec-cse** in the phpmyadmin  <br/>
-- Then **import** databse from project folder. [ **My database file name is  our_database.sql ]**
+- Then **import** database from project folder. [ **My database file name is  our_database.sql ]**
 ### then run
      php artisan key:generate
 ### finally run
