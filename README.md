@@ -45,7 +45,7 @@ My database file name our_database.sql
 ### Go to this link  from browser and **bombed.**
 
 For Admin purposes, go to http://127.0.0.1:8000/admin   <br/>
--- Email:  sagar@yahoo.com
--- Password: 12345678
+- Email:  sagar@yahoo.com <br/>
+- Password: 12345678 <br/>
     
                  
