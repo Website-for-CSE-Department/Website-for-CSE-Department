@@ -40,6 +40,12 @@ My database file name our_database.sql
 ### finally run
     - php artisan serve
  
-## You will get an hosting address.
+## You will get a hosting address like 
+    - http://127.0.0.1:8000/
 ### Go to this link  from browser and **bombed.**
+
+For Admin purposes, go to http://127.0.0.1:8000/admin   <br/>
+-- Email:  sagar@yahoo.com
+-- Password: 12345678
+    
                  
